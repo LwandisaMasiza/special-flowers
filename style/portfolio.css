@@ -70,3 +70,37 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+.project-desciption {
+  padding: 120px 60p;
+}
+
+@media (max-width: 960px) {
+  .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 900px) {
+  h1 {
+    line-height: 1.5;
+  }
+  .project-desciption {
+    padding: o;
+    text-align: center;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+}
+.btn-learn {
+  background: salmon;
+  color: black;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
