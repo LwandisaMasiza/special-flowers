@@ -60,7 +60,13 @@ p {
 }
 
 .project-desciption {
-  padding: 120px 60p;
+  padding: 120px 60px;
+}
+.project {
+  padding: 120px 60px;
+}
+.desciption {
+  padding: 120px 60px;
 }
 
 @media (max-width: 900px) {
@@ -69,6 +75,16 @@ p {
     line-height: 2;
   }
   .project-desciption {
+    padding: 0;
+    text-align: center;
+  }
+
+  .project {
+    padding: 0;
+    text-align: center;
+  }
+
+  .desciption {
     padding: 0;
     text-align: center;
   }
